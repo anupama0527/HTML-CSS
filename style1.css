@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Reset some default styles to ensure consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #53dbe8;
+}
+
+/* Style the header with a background color and center the text */
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border: 2px solid yellowgreen;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #007acc;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid yellowgreen;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content section */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(17, 13, 141);
+
+}
+
+/* Style the profile picture */
+#about-me img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Style headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid yellowgreen;
+
+}
+
+/* Style links */
+a {
+    color: #007acc;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contact Me</title>
+  <style>
+    body,
+    h1,
+    p,
+    label,
+    input,
+    textarea,
+    button {
+      margin: 0;
+      padding: 0;
+    }
+
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #a4c6e4;
+      color: #333;
+    }
+
+
+    header {
+      background-color: #007acc;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+
+    section {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(210, 149, 149, 0.1);
+      border-radius: 20px;
+    }
+
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+
+    button[type="submit"] {
+      background-color: #007acc;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #005b9f;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #007acc;
+      color: #fff;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <p>Feel free to reach out!</p>
+  </header>
+
+  <section>
+    <form action="end.html" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" required id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="email" required id="email" name="email">
+
+      <label for="phone no">Phone number:</label>
+      <input type="number" required id="phone no" name="phone no">
+
+      <label for="city">City:</label>
+      <input type="text" required id="city" name="city">
+
+      <label for="age">Age</label>
+      <input type="number" required id="age" name="age">
+
+
+      <label for="message">Message:</label>
+      <textarea id="message" required name="message" rows="4"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Anupama G M | Email: anuv242347@gmail.comcom</p>
+  </footer>
+</body>
+
+</html>
